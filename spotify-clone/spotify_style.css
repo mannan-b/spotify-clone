@@ -1,0 +1,209 @@
+body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+	    background-color: #121212;
+position: relative;
+        }
+.icons_right{height: 30px;
+width: 30px;
+margin: 10px;
+display: inline-block;
+vertical-align: middle;
+float: right;
+}
+.icons{height: 30px;
+width: 30px;
+margin: 10px;
+display: inline-block;
+vertical-align: middle;
+}
+
+.cover{height: 60px;
+width: 60px;
+margin: 10px;
+display: inline-block;
+vertical-align: middle;
+}
+
+.album_covers{
+height: 60px;
+width: 60px;
+margin: 5px 15px 5px 15px;
+display: inline-block;
+vertical-align: middle;
+}
+.containers {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 1px;
+}
+.menu_options{color: white;
+margin: 5px;
+vertical-align: middle;
+font-family: 'proxima-nova', sans-serif;
+font-size: 16px;
+display: inline-block;
+padding: 10px;
+border-radius: 20px;
+background-color: #222;
+}
+p{color: white;
+margin: 10px;
+vertical-align: middle;
+font-family: 'proxima-nova', sans-serif;
+font-size: 18px;
+display: inline-block;}
+
+.Artist{
+color: #999;
+font-size: 14px;
+margin: 8px 8px 8px 1px;
+vertical-align: middle;
+font-family: 'proxima-nova', sans-serif;
+display: inline-block;}
+}
+
+.mPlayer{
+display: inline;
+text-align: center
+align-itens: center;
+justify-content: center;
+}
+
+        .play-pause-checkbox {
+            display: none;
+        }
+        .play-pause-label {
+            font-size: 25px;
+            cursor: pointer;
+            color: black;
+            background-color: white;
+margin: 10px;            
+padding: 10px;
+            border-radius: 30px;
+            display: inline-block;
+            text-align: center;
+            width: 20px;
+            height: 20px;
+align-items: center;
+	    text-align: center;
+	    justify-content: center;
+	    font-size: 25px;
+        }
+
+        /* Play icon (CSS only) */
+        .play-pause-label:before {
+	    align-items: center;
+	    text-align: center;
+	    justify-content: center;
+	    font-size: 21px;
+            content: "\25B6"; /* Unicode for Play symbol */
+        }
+
+        /* Pause icon when checkbox is checked */
+        .play-pause-checkbox:checked + .play-pause-label:before {
+            content: "\23F8"; /* Unicode for Pause symbol */
+	    font-size: 16px;
+        }
+.box {
+display: inline-block;            
+width: auto;
+text-align: center;
+}
+.center {
+display: inline-block;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+}
+.element:hover{background-color: rgba(255, 255, 255, 0.05);
+border-style: none;
+border-radius: 8px;
+}
+.element{
+margin-left: 10px;
+margin-right: 13px;
+margin-top: 1px;
+margin-bottom: 1px;
+display: flex;
+align-items: center;
+}
+
+.footer_icons{
+height: 20px;
+width: 20px;
+margin: 10px;
+display: inline-block;
+vertical-align: middle;
+float: right;
+}
+.playlists{
+display: inline-block;
+margin: 5px;
+background-color: rgba(255, 255, 255, 0.15);
+border-style: none;
+border-radius: 5px;
+width: 42vh;
+}
+
+.playlist_covers{
+height: 45px;
+width: 45px;
+margin: 0px;
+display: inline-block;
+vertical-align: middle;
+border-radius: 5px 0px 0px 5px;
+}
+
+.playlist_containers {
+    justify-content: center;
+    display: flex;
+    align-items: center; /* Vertically centers the items */
+    margin: 1px;
+}
+
+.recs{
+display: inline-block;
+justify-content: center;
+text-align: center;
+padding: 2px;
+margin: 10px 20px 10px 20px;
+width: 28vh;
+border-radius: 10px;
+}
+
+.recs:hover{
+background-color: rgba(255, 255, 255, 0.05);
+border-style: none;
+border-radius: 10px;
+}
+
+.rec_covers{
+position: relative;
+left: 45%;
+transform: translateX(-50%);
+height: 150px;
+width: 150px;
+margin: 0px;
+vertical-align: middle;
+margin: 10px;
+display: flex;
+}
+
+.rec_texts{
+color: #999;
+margin: 8px;
+text-align: justify;
+font-family: 'proxima-nova', sans-serif;
+font-size: 16px;
+display: inline-block; 
+}
+
+#myProgressBar{
+    width: 45vw; 
+    cursor: pointer;
+}

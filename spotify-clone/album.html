@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <title>Push Barman to open old wounds</title>
+        <style>
+            .container{
+                padding: 15px;
+                display: flex;
+                align-items: end;
+                height: 200px;
+                color: white;
+                font-family: 'proxima-nova', sans-serif;
+            }
+            img{
+                margin-right: 15px;
+                display: inline-block;
+                border-radius: 8px;
+                width: 180px;
+                height: 180px;
+            }
+            .music_body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    height: auto;
+    margin: 0;
+}
+
+.music-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.music-table th, .music-table td {
+    text-align: left;
+    font-size: 14px;
+}
+
+.music-table th {
+    color: #b3b3b3;
+    font-weight: normal;
+}
+
+.music-table td {
+    color: #ffffff;
+    border-top: 1px solid #333333;
+}
+
+.music-table tr:hover {
+    background-color: #282828;
+}
+
+.explicit {
+    display: inline-block;
+    background-color: #777;
+    color: #000;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.gore{
+    text-decoration-line:line-through;
+    color: cyan;
+}
+        </style>
+    </head>
+    <body style="background-image: linear-gradient(#4A4B4B, #121212);">
+    <div class="container">
+        <img src="Belle_&_Sebastian_-_Push_Barman_to_Open_Old_Wounds.jpg">
+        <span>Album<br>
+            <h1><strong>Push Barman to open old wounds</strong></h1>
+             <br>Belle and Sebastian · 2000 · 9 songs, 33min 19sec
+        </span>
+    </div>
+    <br><br>
+    <div class="music_body">
+
+<script>
+        // Function to play audio
+        function playAudio() {
+            var audio = document.getElementById("clickSound");
+            audio.play();
+        }
+    </script>    
+
+<table cellpadding="10px" class="music-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><span onclick="playAudio()">Legal Man</span></td><audio id="clickSound" src="music.mp3"></audio>
+                <td>Belle and Sebastian</td>
+                <td>2:42</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><p class="gore">Judy Is a Dick Slap</p></td>
+                <td>Belle and Sebastian</td>
+                <td>4:05</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Winter Wooskie</td>
+                <td>Belle and Sebastian</td>
+                <td>2:41</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Jonathan David</td>
+                <td>Belle and Sebastian</td>
+                <td>3:00</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Take Your Carriage Clock and Shove It <span class="explicit">E</span></td>
+                <td>Belle and Sebastian</td>
+                <td>3:36</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>The Loneliness of a middle distance runner </td>
+                <td>Belle and Sebastian</td>
+                <td>3:36</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>I'm waking up to us </td>
+                <td>Belle and Sebastian</td>
+                <td>3:36</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>I love my car </td>
+                <td>Belle and Sebastian</td>
+                <td>3:36</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Marx and Engels </td>
+                <td>Belle and Sebastian</td>
+                <td>3:36</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

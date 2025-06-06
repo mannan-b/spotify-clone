@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #0b0d1e, #000);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.laptop-image img {
+    width: 60%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.text-content h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.download-button {
+    padding: 10px 20px;
+    background-color: #1ed760;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #1db954;
+}
+
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Install App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="laptop-image">
+            <img src="laptop1.png" alt="Laptop with Spotify App">
+        </div>
+        <div class="text-content">
+            <h1>Seamlessly listen to music you love.</h1>
+            <p>Download the Spotify app for your computer.</p>
+            <a href="https://download.scdn.co/SpotifySetup.exe">
+                <button class="download-button">Get our free app</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

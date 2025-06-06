@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>header</title>
+        <style>
+body, html {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+	    background-color: black;
+position: relative;
+        }
+ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    margin-top: 5px;
+    color: white;
+}
+.search{
+    margin-left: 25%;
+    position: relative;
+}
+.search-bar{
+    width: 200%;
+    max-width: 700px;
+    background: #1F1F1F;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px;
+
+}
+.search-bar input{
+    background-color: #1F1F1F;
+    border: 0;
+    outline: none;
+    padding-right: 0px;
+    font-size: 18px;
+    margin: 1px;
+}
+
+.b{
+     margin-left: 35%;
+}
+.b button{
+    border-radius: 60px;
+    font-size: 14px;
+font-family: 'proxima-nova', sans-serif;
+padding: 10px;
+}
+	</style>
+    </head>
+    <body>
+        <ul>
+            <li id="logo"><a href="Spotify.html"><img src="SpotifyLogo.png" height="50px" width="50px"></a></li>
+            <div class="search">
+                <form action="" class="search-bar">
+                    <img style="margin-right: 10px;" src="search.png" height="15px">
+                    <input type="text" placeholder="Search Songs Here!" >
+                </form>
+            </div>
+            <div class="b">
+                <a href="explore_premium.html" target="_blank"><button>Explore Premium</button></a>
+                <a href="install_app.html" target="_blank"><button style="background-color:black; color: white;">Install App</button></a>
+            </div>    
+        </ul>
+
+    </body>
+</html>
